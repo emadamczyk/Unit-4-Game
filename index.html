@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="container col-md-8 col-sm-10 col-xs-12">
+    <div class ="row" id="title">
+        <h1>Crystal Collector Game</h1>
+    </div>
+    <div class="wrapper">
+        <div class="row border" id="rules" >
+            <p>You will be given a random target number at the start of each game.</p>
+            <p>There are four crystals below. By clicking on each crystal you add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to the randomly generated target number, and you lose the game if your total score goes above the random target number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p> 
+            <p>For each new game, you will be given a new random target number and the values of each crystal will change.</p>
+        </div>
+        <div class="row counters">                 
+            <div class="col-md-6">
+                <p>Target Number: <span id="targetNumber"></span></p>
+            </div>
+            <div class="col-md-6">
+                <p>Your Score: <span id="score"></span></p>
+            </div>
+        </div> 
+        <div class="row crystal-images">
+            <div class="col-md-3" id="crystal-one">
+                <img src="assets/images/crystal1.jpg">
+            </div>
+            <div class="col-md-3" id="crystal-two">
+                <img src="assets/images/crystal2.jpg">
+            </div>
+            <div class="col-md-3" id="crystal-three">
+                <img src="assets/images/crystal3.jpg">
+            </div>
+            <div class="col-md-3" id="crystal-four">
+                <img src="assets/images/crystal4.jpg">
+            </div>
+        </div>   
+        <div class="row counters">    
+            <div class="col-md-6">
+                <p>Wins: <span id="wins"></span></p>
+            </div>
+            <div class="col-md-6">
+                <p>Losses: <span id="losses"></span></p>
+            </div>
+        </div>
+            
+        </div>
+    </div>
+    
+</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>    
+</body>
+</html>

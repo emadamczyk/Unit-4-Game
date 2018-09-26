@@ -1,0 +1,32 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    background-image: url("../images/diamond-bg.jpg")
+}
+
+#title h1 {
+    color: #aa0078;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:48px;
+    font-display: bolder;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#rules {
+    background: #ceebfb;
+    padding: 7px;
+}
+ .counters {
+    background: #f0eceb;
+    border-top: solid 1px #aa0078 !important;
+    border-bottom: solid 1px #aa0078 !important;
+    padding-top: 10px;
+ }
+
+ .crystal-images img {
+     width: 100%;
+    
+ }
