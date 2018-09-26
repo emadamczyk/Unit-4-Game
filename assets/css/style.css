@@ -28,5 +28,6 @@ body {
 
  .crystal-images img {
      width: 100%;
+     /*add media query for smallest screens?*/
     
  }
