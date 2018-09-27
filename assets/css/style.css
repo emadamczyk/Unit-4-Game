@@ -26,6 +26,12 @@ body {
     padding-top: 10px;
  }
 
+ #alert-holder {
+    font-weight: bold; 
+    margin: 5px auto;
+    text-align: center;
+ }
+
  .crystal-images img {
      width: 100%;
      /*add media query for smallest screens?*/
